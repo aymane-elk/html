@@ -1,0 +1,117 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d8b48d;
+    padding: 10px;
+    text-align: right;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    background-color: #bbb;
+}
+
+/* Section des produits */
+.top-products {
+    text-align: center;
+    padding: 20px;
+}
+
+.top-products h2 {
+    color: #8d6e3d;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product {
+    display: inline-block;
+    width: 250px;
+    background-color: #f5e0c4;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.product h3 {
+    color: #a43232;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.product button {
+    background-color: #8d2828;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product button:hover {
+    background-color: #b23030;
+}
+
+.price {
+    color: #558b6e;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Section "Comment Acheter" */
+.how-to-buy {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5e0c4;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.how-to-buy h3 {
+    font-size: 22px;
+    color: #8d6e3d;
+}
+
+.how-to-buy p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.how-to-buy button {
+    background-color: #8d6e3d;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.how-to-buy button:hover {
+    background-color: #a07a4d;
+}

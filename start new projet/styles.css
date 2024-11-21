@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #800b0b;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    margin-bottom: 1.5rem;
+}
+
+.cta {
+    background: #f04;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#services, #projects {
+    background: #f9f9f9;
+    padding: 2rem 0;
+}
+
+.service, .project {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background: #800b0b;
+    color: #fff;
+    padding: 2cm;
+    text-align: center;
+}

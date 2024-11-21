@@ -1,0 +1,51 @@
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Conteneur du tableau */
+.table-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style pour le titre du tableau */
+.table-container h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+/* Style pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style pour l'en-tête du tableau */
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Style pour les cellules de l'en-tête */
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Style pour les cellules de données */
+td {
+    background-color: #f9f9f9;
+}
+
+/* Style pour les images */
+img {
+    width: 50px; /* Ajuster la largeur des images */
+    height: auto;
+}

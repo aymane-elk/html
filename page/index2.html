@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau des Voitures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+        }
+        .consult-button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .consult-button:hover {
+            background-color: #218838;
+        }
+        img {
+            width: 100px;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tableau des Voitures</h1>
+    <table>
+        <tr>
+            <th>Marque</th>
+            <th>Modèle</th>
+            <th>Prix (€)</th>
+            <th>Image</th>
+            <th>Consulter</th>
+        </tr>
+        <tr>
+            <td>Tesla</td>
+            <td>Model S</td>
+            <td>89,990</td>
+            <td><img src="img/tesla-model-s.png" alt="Tesla Model S"></td>
+            <td><a href="#" class="consult-button">Consulter</a></td>
+        </tr>
+        <tr>
+            <td>BMW</td>
+            <td>i4</td>
+            <td>59,900</td>
+            <td><img src="img/bmw-i4.jpg" alt="BMW i4"></td>
+            <td><a href="#" class="consult-button">Consulter</a></td>
+        </tr>
+        <tr>
+            <td>Audi</td>
+            <td>e-tron GT</td>
+            <td>101,800</td>
+            <td><img src="img/audi-e-tron-gt.jpg" alt="Audi e-tron GT"></td>
+            <td><a href="#" class="consult-button">Consulter</a></td>
+        </tr>
+    </table>
+</body>
+</html>

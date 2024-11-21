@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <fieldset class="box" style="height: 200px; width: 300px;">
+        <legend>INSCRIPTION</legend>
+        <table  border="0px" cellpadding="2px" cellspacing="10px" >
+            <form>
+                <tr>
+                    <td> <label for="Nom">Nom:</label></td>
+                    <td><input type="text" id="Nom"><br></td>
+                </tr>
+                <tr>
+                    <td><label>Pays:</label></td>
+                    <td>
+                        <select>
+                            <option>choisir votre Pays</option>
+                            <option>Maroc</option>
+                            <option>Suise</option>
+                        </select><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Centres d'interet:</label>  </td>
+                    <td><input type="checkbox" value="sport">sport
+                        <input type="checkbox" value="Cinéma">Cinéma<br>
+                        <input type="checkbox" value="Internet">Internet
+                        <input type="checkbox" value="Voyage">Voyage<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="Civilité">Civilité:</label></td>
+                    <td> <input type="radio" value="M">M
+                        <input type="radio" value="Mlle">Mlle
+                        <input type="radio" value="Mme">Mme</td>
+                </tr>
+               <tr>
+                    <td align="right" colspan=2><input type="button" value="Ajouter">
+                        <input type="button" value="Réinitialiser"></td>
+               </tr>
+            </form>
+    </fieldset>
+    </table>
+</body>
+
+</html>

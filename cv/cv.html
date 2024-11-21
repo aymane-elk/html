@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mon CV</h1>
+
+    <!-- Menu de navigation -->
+    <nav>
+        <ul>
+            <li><a href="#photo">Photo</a></li>
+            <li><a href="#personnelles">Données Personnelles</a></li>
+            <li><a href="#cursus">Cursus Scolaire</a></li>
+            <li><a href="#experience">Expériences Professionnelles</a></li>
+            <li><a href="#contact">Contacter Moi</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Photo -->
+    <section id="photo">
+        <h2>Photo</h2>
+        <img src="andrew tat's.jpg" alt="Photo de moi" width="150">
+    </section>
+
+    <!-- Section Données Personnelles -->
+    <section id="personnelles">
+        <h2>Données Personnelles</h2>
+        <p>Nom: aymane elkahlaoui</p>
+        <p>Email: aymaneelkahlaoui710@gmail.com</p>
+        <p>Téléphone: +212 617-366502</p>
+        <p>Adresse: 123 Rue de Paris, France</p>
+    </section>
+
+    <!-- Section Cursus Scolaire -->
+    <section id="cursus">
+        <h2>Cursus Scolaire</h2>
+        <p>2020 - 2023 : Licence Informatique, Université de Paris</p>
+        <p>2017 - 2020 : Baccalauréat Scientifique, Lycée Jean Moulin</p>
+    </section>
+
+    <!-- Section Expériences Professionnelles -->
+    <section id="experience">
+        <h2>Expériences Professionnelles</h2>
+        <p>2023 - Présent : Développeur Front-end, Entreprise XYZ</p>
+        <p>2021 - 2022 : Stage Développeur Web, Startup ABC</p>
+    </section>
+
+    <!-- Section Contacter Moi -->
+    <section id="contact">
+        <h2>Contacter Moi</h2>
+        <form action="envoyer_message.php" method="POST">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Valider</button>
+            <button type="reset">Réinitialiser</button>
+        </form>
+    </section>
+
+</body>
+</html>

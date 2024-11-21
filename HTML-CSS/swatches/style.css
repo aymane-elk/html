@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.watch-collection {
+    display: flex;
+    gap: 20px;
+}
+
+.watch-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.watch-card img {
+    width: 100%;
+    height: auto;
+}
+
+.watch-card h3 {
+    margin: 15px 0 10px;
+    font-size: 1.2em;
+}
+
+.watch-card p {
+    padding: 0 15px;
+    color: #555;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.watch-card button {
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.watch-card button:hover {
+    background-color: #0056b3;
+}

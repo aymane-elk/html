@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Style</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 10px;
+    margin-left: 700px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.text-block {
+    width: 45%;
+    background-color: #f7ecd8;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.text-block h2 {
+    color: #d2721d;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.text-block p {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.explore-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.explore-btn:hover {
+    background-color: #0056b3;
+}
+
+.image-block {
+    width: 45%;
+}
+
+.image-block img {
+    width: 100%;
+    border-radius: 10px;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <div class="text-block">
+            <h2>Give your workout a new style</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus accusamus minima numquam ad itaque sapiente maxime illum incidunt aut quas. Quisquam architecto eum nihil sit nulla, sed aut consectetur libero.</p>
+            <a href="#" class="explore-btn">Explore now -></a>
+        </div>
+
+        <div class="image-block">
+            <img src="img/running.png" alt="Running img png">
+        </div>
+    </div>
+</body>
+</html>

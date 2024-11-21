@@ -1,0 +1,25 @@
+
+ ul {
+    float:right;
+    margin-right: 20px;
+    
+ }
+ li {
+    display: inline;
+    
+    list-style: none;
+
+    
+}
+a {
+    border: 1px solid ;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px ;
+    
+}
+a:hover{
+    background-color: antiquewhite;
+    color: rgb(8, 8, 8);
+    border-color: black;
+}

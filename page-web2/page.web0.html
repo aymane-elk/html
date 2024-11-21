@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Latéral</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    padding: 15px;
+
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+}
+
+.menu-item i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.menu-item:hover {
+    background-color: #444;
+    cursor: pointer;
+}
+
+/* Icons styling example */
+.icon-home::before {
+    content: "\1F3E0"; /* Emoji for Home */
+}
+
+.icon-services::before {
+    content: "\1F527"; /* Emoji for Services */
+}
+
+.icon-info::before {
+    content: "\2139"; /* Emoji for Information */
+}
+
+.icon-contact::before {
+    content: "\1F4E7"; /* Emoji for Contact */
+}
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="#" class="menu-item"><i class="icon-home"></i> Accueil</a>
+        <a href="#" class="menu-item"><i class="icon-services"></i> Services</a>
+        <a href="#" class="menu-item"><i class="icon-info"></i> À propos</a>
+        <a href="#" class="menu-item"><i class="icon-contact"></i> Contact</a>
+    </div>
+    <section class="sidebar">
+        
+        
+
+
+
+
+    </section>
+</body>
+</html>

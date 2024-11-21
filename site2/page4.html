@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colored Boxes Layout</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+
+.pink {
+    background-color: #d9b1a3;
+}
+
+.green {
+    background-color: #bae7ba;
+    color: brown;
+}
+
+.purple {
+    background-color: #acaac0;
+}
+
+.violet {
+    background-color: #bb93b4;
+    color: blue;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box pink"></div>
+        <div class="box green">
+            <p>Lorem ispsum dolar sit amet consectetur adipiscing elit. Soluta eveniet inventore id perspiciatis atque nostrum possimus beatae aperiam? Rem earum porro iusto, qdipisci suscipit natus voluptatum sit accusamus ipsam incidunt.</p>
+        </div>
+        <div class="box purple"></div>
+        <div class="box violet">
+            <p>Lorem ipsum dolar sit amet consectetur, adipisicing elit. Itaque odit incidunt explicabo? Accusamus excepturi optio praesentium inventore doloribus quod molestiae facilis? Dolorem quasi vero fugiat! consectetur, illum ducimus?</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Site</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* تنسيق خاص للجانبين */
+    .sidebar {
+      background-color: #f8f9fa; /* لون الخلفية الفاتح */
+      padding: 20px;
+      height: 400px; /* طول محدد */
+    }
+    .border-red {
+      border: 2px solid red; /* الإطار الأحمر */
+    }
+    .border-green {
+      border: 2px solid green; /* الإطار الأخضر */
+    }
+    .header {
+      background-color: #b0c4de; /* لون الخلفية للأعلى */
+      padding: 20px;
+      text-align: center;
+    }
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- الهيدر -->
+  <div class="header">
+    <h1>Mon Site</h1>
+    <p>Bienvenue sur notre site</p>
+  </div>
+
+  <!-- المحتوى الرئيسي مع الجانبين -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-3 sidebar border-red"> <!-- العمود الأيسر -->
+      </div>
+      <div class="col-md-6">
+        <h2>Bienvenue dans notre contenu principal</h2>
+        <p>Voici le contenu principal de la page...</p>
+      </div>
+      <div class="col-md-3 sidebar border-green"> <!-- العمود الأيمن -->
+      </div>
+    </div>
+  </div>
+
+  <!-- الفوتر -->
+  <div class="footer mt-4">
+    <p>&copy; 2024 Mon Site. Tous droits réservés.</p>
+  </div>
+</body>
+</html>

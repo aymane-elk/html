@@ -1,0 +1,62 @@
+.prociono-regular {
+    font-family: "Prociono", serif;
+    font-weight: 400;
+    font-style: normal;
+    block-size: auto;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    left: auto;
+    right: auto;
+    padding: auto;
+  }
+  body {
+    background-image: url(img/img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+  }
+  #playlist {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    position: relative; /* باش تقدر تحكم فالمكان ديال الصورة */
+}
+
+.artist-container {
+    text-align: center; /* باش الصورة تكون وسط */
+    margin-bottom: 20px;
+}
+
+.artist-img {
+    width: 150px; /* حجم الصورة */
+    height: auto;
+    border-radius: 50%; /* باش الصورة تكون دائرية */
+    border: 3px solid white; /* إطار للصورة */
+    position: relative; /* باش الصورة تكون مستقلة فوق الأغنية */
+    z-index: 2; /* باش تكون فوق مشغل الموسيقى */
+}
+
+.audio-container {
+    display: flex;
+    justify-content: center; /* لتوسيط مشغل الموسيقى أفقياً */
+    align-items: center;     /* لتوسيط مشغل الموسيقى عمودياً إذا كنت بحاجة */
+    height: 100%;            /* يمكنك تعديل الارتفاع حسب الحاجة */
+}
+
+audio {
+    width: 100%;
+    max-width: 500px; /* الحجم الأقصى للمشغل */
+    align-items: center;
+}
+
+

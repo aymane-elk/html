@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.img-container {
+    display: flex; /* Utilise Flexbox pour aligner les images */
+    justify-content: center; /* Centre les images horizontalement */
+}
+
+.image {
+    margin: 10px; /* Ajoute de l'espace autour de chaque image */
+    max-width: 30%; /* Limite la largeur des images à 30% */
+    height: auto; /* Assure que la hauteur s'ajuste proportionnellement */
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .box {
+      padding: 50px;
+      margin: 10px;
+      font-size: 50px;
+      border-radius: 20px;
+    }
+
+    .box-blue {
+      border: 3px solid blue;
+    }
+
+    .box-green {
+      border: 3px solid green;
+    }
+
+    .box-red {
+      border: 3px solid red;
+    }
+
+    .box-black {
+      border: 3px solid black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Top Row with Green Box -->
+    <div class="row">
+      <div class="col-md-12 box box-green"></div>
+    </div>
+
+    <!-- Middle Row with Blue and Red Boxes -->
+    <div class="row">
+      <div class="col-md-4 box box-blue"></div>
+      <div class="col-md-6 box box-red"></div>
+    </div>
+
+    <!-- Bottom Row with Black and Green Boxes -->
+    <div class="row">
+      <div class="col-md-3 box box-black"></div>
+      <div class="col-md-4 box box-green"></div>
+    </div>
+  </div>
+</body>
+</html>
